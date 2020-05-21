@@ -47,6 +47,19 @@ The laboratory module
   - The sample data id as well as the associated molecules are removed from play.
   - The players scores as many points as the sample's health points.
   - The player acquires molecule expertise: the robot will need 1 less molecule of the type specified by the sample for producing all       subsequent medicines.
+  
+  ## Code Terms
+  
+**target**: module where the player is.
+**eta**: ignore for this league.
+**score**: the player's number of health points
+**storageA**, **storageB**, **storageC**, **storageD**, **storageE**: number of molecules held by the player for each molecule type.
+**sampleId**: unique id for the sample.
+**carriedBy**: 0 if the sample is carried by you, 1 by the other robot, -1 if the sample is in the cloud.
+**rank**: ignore for this league.
+**gain**: ignore for this league.
+**health**: number of health points you gain from this sample.
+**costA**, **costB**, **costC**, **costD**, **costE**: number of molecules of each type needed to research the sample
 
 
 
