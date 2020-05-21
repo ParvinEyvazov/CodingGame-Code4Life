@@ -81,11 +81,14 @@ Our Robot is not smart enough doing everything by himself. Because of that, we h
 
 The goal is to produce medicines with more productive way. Firstly, Robot has to find more healty medicine that can be produced. Then, He will go to ***DIAGNOSIS*** part to get more healthy medicine sample.
 
+
 <img src="images/diagnosis.PNG" width = "250">
+
 
 Here, our Robot took the sample that has max health (= 10). This is an important point to win the BOSS.
 
 That is according codes:
+
 ```scala
 
     for (sample <- allsamples){
@@ -107,7 +110,9 @@ After catching the best sample, Robot has to go to collect the according molecul
 
 This Sample can contain 5 kind of Molecules. They are ***A*** , ***B*** , ***C*** , ***D*** , ***E***
 
+
 <img src="images/molecules.PNG" width = "250">
+
 
 Here, Robot collects the needed molecules.
 
@@ -135,9 +140,12 @@ That is according codes:
       
 ```
 
+
 When there is no needed molecules anymore, Robot takes them to ***Laboratory*** to produce them to medicine.
 
+
 <img src="images/molecules.PNG" width = "250">
+
 
 That is according codes: 
 ```scala
