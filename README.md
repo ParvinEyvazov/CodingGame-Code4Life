@@ -137,6 +137,29 @@ That is according codes:
 
 When there is no needed molecules anymore, Robot takes them to ***Laboratory*** to produce them to medicine.
 
+<img src="images/molecules.PNG" width = "250">
+
+That is according codes: 
+```scala
+
+      //if still need molecules
+      if (neededMolecule != null){
+      
+        goMolecules("MOLECULES", neededMolecule, currentRobot.target)
+        
+      }
+      
+      //if every needed molecule has taken , then go to Laboratory to produce the medicines
+      else{
+      
+        goLaboratory("LABORATORY", bestSample.id, currentRobot.target)
+        
+      }
+      
+```
+
+After producing a medicine , Robot get a score as same as health value. 
+
 
 
 
