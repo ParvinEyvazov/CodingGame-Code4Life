@@ -36,11 +36,14 @@ The diagnosis machine
 -Connecting to this module with "CONNECT" id will transfer the sample data file identified by "id" from the cloud of the diagnosis machine to your robot.
 
 The molecule distribution module
--Connecting to this module with "CONNECT type", where "type" is one of the molecule types, will transfer an available molecule to your robot of the desired type.
+
+- Connecting to this module with "CONNECT type", where "type" is one of the molecule types, will transfer an available molecule to your robot of the desired type.
 
 The laboratory module
--To use this module, the player's robot must be carrying a sample data file as well as the required amount of molecules for producing that sample's medicine.
--Connecting to this module with CONNECT id where id is the identifier of a sample data the player can research, will have several effects:
+
+- To use this module, the player's robot must be carrying a sample data file as well as the required amount of molecules for producing that sample's medicine.
+
+- Connecting to this module with CONNECT id where id is the identifier of a sample data the player can research, will have several effects:
 - - The sample data id as well as the associated molecules are removed from play.
 - - The players scores as many points as the sample's health points.
 - - The player acquires molecule expertise: the robot will need 1 less molecule of the type specified by the sample for producing all       subsequent medicines.
