@@ -92,6 +92,7 @@ That is according codes:
 
       //max healthy sample is best to take if it is not in other robot
       if ((sample.health > maxHealth) & sample.carriedBy != 1 ){
+      
         //Set this sample as BEST SAMPLE
         bestSample = sample
         maxHealth = sample.health
@@ -111,15 +112,18 @@ This Sample can contain 5 kind of Molecules. They are ***A*** , ***B*** , ***C**
 Here, Robot collects the needed molecules.
 
 That is according codes: 
+
 ```scala
 
       var neededMolecule :String = null
 
       //take the molecule that needed
       breakable {
+      
         for (i <- 0 to 4){
         
           if (currentRobot.storages(i) < bestSample.cost(i)) {
+          
             neededMolecule = String.valueOf("ABCDE"(i))
             break
             
@@ -130,6 +134,8 @@ That is according codes:
       }
       
 ```
+
+When there is no needed molecules anymore, Robot takes them to ***Laboratory*** to produce them to medicine.
 
 
 
