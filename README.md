@@ -108,6 +108,30 @@ This Sample can contain 5 kind of Molecules. They are ***A*** , ***B*** , ***C**
 
 <img src="images/molecules.PNG" width = "250">
 
+Here, Robot collects the needed molecules.
+
+That is according codes: 
+```scala
+
+      var neededMolecule :String = null
+
+      //take the molecule that needed
+      breakable {
+        for (i <- 0 to 4){
+        
+          if (currentRobot.storages(i) < bestSample.cost(i)) {
+            neededMolecule = String.valueOf("ABCDE"(i))
+            break
+            
+          }
+          
+        }
+        
+      }
+      
+```
+
+
 
 
 
