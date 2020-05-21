@@ -77,9 +77,11 @@ The laboratory module
 
 ## Strategy
 
-Our Robot is not smart enough doing everything by himself. Because of that, we have to say our Robot what to do. The goal is to produce medicines with more productive way. Firstly, Robot has to find more healty medicine that can be produced. Then, He will go to ***DIAGNOSIS*** part to get more healthy medicine sample.
+Our Robot is not smart enough doing everything by himself. Because of that, we have to say our Robot what to do. 
 
-<img src="images/diagnosis.PNG" width = "400">
+The goal is to produce medicines with more productive way. Firstly, Robot has to find more healty medicine that can be produced. Then, He will go to ***DIAGNOSIS*** part to get more healthy medicine sample.
+
+<img src="images/diagnosis.PNG" width = "250">
 
 Here, our Robot took the sample that has max health(10).
 
