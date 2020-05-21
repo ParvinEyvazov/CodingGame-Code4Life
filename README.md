@@ -161,7 +161,7 @@ That is according codes:
 After producing a medicine , Robot get a score as same as health value. 
 
 
-<img src="images/win.PNGG" width = "500">
+<img src="images/win.PNG" width = "500">
 
 
 
