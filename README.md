@@ -10,8 +10,11 @@ A game is played with 2 players. Each player controls one robot.
 The complex is composed of 3 modules named DIAGNOSIS, MOLECULES and LABORATORY. The robots can transfer two types of items from and to the modules: sample data files and molecules.
 
 In a nutshell, you have to optimize your robot movements to:
+
 1 - Collect sample data files from the cloud at the DIAGNOSIS module.
+
 2 - Gather required molecules for the medicines at the MOLECULES module.
+
 3 - Produce the medicines at the LABORATORY module and collect your health points.
 
 ## Details
