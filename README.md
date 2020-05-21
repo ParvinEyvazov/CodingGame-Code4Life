@@ -104,7 +104,9 @@ That is according codes:
 
 After catching the best sample, Robot has to go to collect the according molecules in ***MOLECULES***.
 
-This Sample can contain 5 kind of Molecules. They are ***A*** , ***B*** ,***C*** ,***D*** ,***E***
+This Sample can contain 5 kind of Molecules. They are ***A*** , ***B*** , ***C*** , ***D*** , ***E***
+
+<img src="images/molecules.PNG" width = "250">
 
 
 
