@@ -83,7 +83,24 @@ The goal is to produce medicines with more productive way. Firstly, Robot has to
 
 <img src="images/diagnosis.PNG" width = "250">
 
-Here, our Robot took the sample that has max health(10).
+Here, our Robot took the sample that has max health (= 10). This is an important point to win the BOSS.
+
+That is according codes:
+```scala
+
+    for (sample <- allsamples){
+
+      //max healthy sample is best to take if it is not in other robot
+      if ((sample.health > maxHealth) & sample.carriedBy != 1 ){
+        //Set this sample as BEST SAMPLE
+        bestSample = sample
+        maxHealth = sample.health
+      }
+    }
+    
+```
+
+After catching the best sample, Robot has to go to collect the according molecules in ***MOLECULES***
 
 
 
