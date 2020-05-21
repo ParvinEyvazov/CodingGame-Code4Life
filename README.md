@@ -95,12 +95,16 @@ That is according codes:
         //Set this sample as BEST SAMPLE
         bestSample = sample
         maxHealth = sample.health
+        
       }
+      
     }
     
 ```
 
-After catching the best sample, Robot has to go to collect the according molecules in ***MOLECULES***
+After catching the best sample, Robot has to go to collect the according molecules in ***MOLECULES***.
+
+This Sample can contain 5 kind of Molecules. They are ***A*** , ***B*** ,***C*** ,***D*** ,***E***
 
 
 
