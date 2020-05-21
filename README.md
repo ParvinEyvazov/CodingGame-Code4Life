@@ -1,7 +1,7 @@
 # CodingGame Code4Life
 
 ## What is Code4Life ?
-<img src="images/game.PNG" >
+<img src="images/game.PNG" width = "400">
 
 [Code4Life](https://www.codingame.com/ide/puzzle/code4life) is a special contest. The Goal is to produce medicines and maximize your score by transporting items across a medical complex.
 
